@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreightLeak Forensics — Privacy Policy</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=Space+Mono:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #060a10;
+    --surface: #0c1220;
+    --border: #1a2540;
+    --text: #c8d0e0;
+    --text-dim: #7a869e;
+    --white: #f0f4ff;
+    --green: #00e88f;
+    --font-display: "Playfair Display", Georgia, serif;
+    --font-body: "DM Sans", sans-serif;
+    --font-mono: "Space Mono", monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .legal-top {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(6, 10, 16, 0.92);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 28px;
+  }
+  .legal-top-inner {
+    max-width: 800px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  }
+  .back-link {
+    font-family: var(--font-mono);
+    font-size: 14px; font-weight: 600;
+    color: var(--green);
+    text-decoration: none;
+  }
+  .back-link:hover { text-decoration: underline; }
+  .doc-version {
+    font-size: 12px;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+  }
+  main.legal-wrap {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 28px 80px;
+    width: 100%;
+  }
+  .legal-title {
+    font-family: var(--font-display);
+    font-size: clamp(26px, 4vw, 36px);
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 8px;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  .legal-effective {
+    font-size: 14px;
+    color: var(--text-dim);
+    margin-bottom: 32px;
+  }
+  .legal-text {
+    font-size: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: var(--text);
+    line-height: 1.7;
+    font-family: var(--font-body);
+  }
+  .legal-bottom {
+    border-top: 1px solid var(--border);
+    padding: 32px 28px;
+    text-align: center;
+  }
+  .legal-bottom a { color: var(--text-dim); font-size: 13px; text-decoration: none; margin: 0 8px; }
+  .legal-bottom a:hover { color: var(--green); }
+  .copy-email {
+    display: inline-block;
+    font-family: var(--font-mono);
+    color: var(--white);
+    padding: 8px 14px;
+    margin: 0.5rem 0 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    user-select: all;
+    -webkit-user-select: all;
+    cursor: text;
+    font-size: 15px;
+  }
+  @media (max-width: 600px) {
+    .legal-top-inner { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+<header class="legal-top">
+  <div class="legal-top-inner">
+    <a class="back-link" href="freightleak_landing.html">← Back to FreightLeak</a>
+    <span class="doc-version">v 2026-04-25</span>
+  </div>
+</header>
+<main class="legal-wrap">
+  <h1 class="legal-title">FREIGHTLEAK FORENSICS PRIVACY POLICY</h1>
+  <p class="legal-effective">Effective date: April 25, 2026</p>
+  <div class="legal-text">1. LOCAL INVOICE PROCESSING
+FreightLeak Forensics is a desktop application. Carrier billing CSV files,
+tracking numbers, customer names, addresses, shipment details, and audit results
+are processed locally on your computer. FreightLeak does not upload, receive,
+store, sell, rent, or analyze your invoice contents.
+
+2. LICENSE VALIDATION DATA
+When you activate, validate, or deactivate a license, the app contacts Dodo
+Payments license endpoints. Those requests may include your license key, license
+instance id, machine fingerprint/name, timestamp, and license status. They do not
+include invoice files, tracking numbers, addresses, charges, or audit results.
+
+3. LOCAL FILES
+The app may store an encrypted license file and local column-mapping preferences
+on your device so you do not have to remap the same CSV format every month. Legal
+acceptance is also stored locally as a small JSON file containing the accepted
+document version and timestamp.
+
+4. OPTIONAL SUPPORT INFORMATION
+If you email support, you choose what to send. Do not send invoice files or
+customer personal data unless you have the right to share them. If you do send
+sample data for debugging, you are responsible for removing or masking sensitive
+information first.
+
+5. THIRD PARTIES
+Dodo Payments handles payment processing and license management. Email or file
+hosting providers may deliver purchase emails, download links, or support
+messages. FreightLeak does not use in-app analytics, telemetry, ad pixels, or
+background invoice uploads.
+
+6. DATA RETENTION
+License records are retained as needed to operate the license. Support emails are
+retained only as long as reasonably needed for support, fraud prevention, tax, or
+legal records.
+
+7. YOUR RIGHTS
+You may request deletion of personal information held by the seller, subject to
+legal, tax, fraud-prevention, and transaction-record obligations. Local files on
+your computer can be removed by uninstalling the app and deleting its application
+data folder.
+
+8. IMPORTANT LIMIT
+This policy explains how the app is designed to handle data. Your own use of
+carrier exports may be subject to carrier terms, privacy laws, and duties to your
+customers or clients. You are responsible for using the app lawfully.</div>
+</main>
+<div class="legal-bottom" style="border-top:1px solid #1a2540;padding:24px 20px;max-width:800px;margin:0 auto;">
+  <a href="privacy-policy.html">Privacy</a> ·
+  <a href="terms-of-service.html">Terms</a> ·
+  <a href="refund-policy.html">Refund</a> ·
+  <a href="support-policy.html">Support &amp; Updates</a>
+  · <a href="freightleak_landing.html">Home</a>
+</div>
+</body>
+</html>

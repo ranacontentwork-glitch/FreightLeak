@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FreightLeak Forensics — Terms of Service</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=Space+Mono:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #060a10;
+    --surface: #0c1220;
+    --border: #1a2540;
+    --text: #c8d0e0;
+    --text-dim: #7a869e;
+    --white: #f0f4ff;
+    --green: #00e88f;
+    --font-display: "Playfair Display", Georgia, serif;
+    --font-body: "DM Sans", sans-serif;
+    --font-mono: "Space Mono", monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .legal-top {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(6, 10, 16, 0.92);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 28px;
+  }
+  .legal-top-inner {
+    max-width: 800px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  }
+  .back-link {
+    font-family: var(--font-mono);
+    font-size: 14px; font-weight: 600;
+    color: var(--green);
+    text-decoration: none;
+  }
+  .back-link:hover { text-decoration: underline; }
+  .doc-version {
+    font-size: 12px;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+  }
+  main.legal-wrap {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 28px 80px;
+    width: 100%;
+  }
+  .legal-title {
+    font-family: var(--font-display);
+    font-size: clamp(26px, 4vw, 36px);
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 8px;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  .legal-effective {
+    font-size: 14px;
+    color: var(--text-dim);
+    margin-bottom: 32px;
+  }
+  .legal-text {
+    font-size: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: var(--text);
+    line-height: 1.7;
+    font-family: var(--font-body);
+  }
+  .legal-bottom {
+    border-top: 1px solid var(--border);
+    padding: 32px 28px;
+    text-align: center;
+  }
+  .legal-bottom a { color: var(--text-dim); font-size: 13px; text-decoration: none; margin: 0 8px; }
+  .legal-bottom a:hover { color: var(--green); }
+  .copy-email {
+    display: inline-block;
+    font-family: var(--font-mono);
+    color: var(--white);
+    padding: 8px 14px;
+    margin: 0.5rem 0 0;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    user-select: all;
+    -webkit-user-select: all;
+    cursor: text;
+    font-size: 15px;
+  }
+  @media (max-width: 600px) {
+    .legal-top-inner { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+<header class="legal-top">
+  <div class="legal-top-inner">
+    <a class="back-link" href="freightleak_landing.html">← Back to FreightLeak</a>
+    <span class="doc-version">v 2026-04-25</span>
+  </div>
+</header>
+<main class="legal-wrap">
+  <h1 class="legal-title">FREIGHTLEAK FORENSICS TERMS OF SERVICE</h1>
+  <p class="legal-effective">Effective date: April 25, 2026</p>
+  <div class="legal-text">1. ACCEPTANCE
+By installing, activating, or using FreightLeak Forensics, you agree to these
+Terms, the Privacy Policy, Refund Policy, and Support and Updates Policy. If you
+do not agree, do not use the software.
+
+2. LICENSE GRANT
+After purchase, you receive a perpetual, non-exclusive, non-transferable license
+to install and use the purchased version of FreightLeak Forensics on the number
+of machines allowed by your purchased tier. &quot;Lifetime&quot; means the software license
+does not expire by time while the software remains technically usable on your
+device and your license remains valid.
+
+3. WHAT LIFETIME DOES NOT MEAN
+Lifetime license does not mean lifetime support, unlimited support, free custom
+development, guaranteed compatibility with future Windows/macOS releases,
+guaranteed carrier-format updates forever, guaranteed rule updates forever,
+guaranteed dispute success, managed refund filing, consulting, bookkeeping, legal
+advice, or done-for-you invoice review. Those services are not included unless a
+separate written agreement says so.
+
+4. PERMITTED USE
+You may use the software to audit your own carrier billing exports or exports for
+clients you are authorized to represent. You are responsible for having the
+right to process the data you load into the software.
+
+5. PROHIBITED USE
+You may not redistribute, sublicense, rent, resell, reverse engineer, bypass
+license controls, remove proprietary notices, use the software to violate carrier
+terms or law, or use one license beyond its machine or tier limits.
+
+6. AUDIT OUTPUT IS RECOMMENDATIONAL
+The software identifies potentially disputable billing lines based on rules,
+heuristics, public datasets, and the data contained in your CSV. Audit results,
+PDFs, dispute letters, deadlines, and recoverable amounts are recommendations
+only. Carriers have sole discretion over refunds, credits, deadlines, and denial
+reasons. You must verify flagged items before filing disputes.
+
+7. USER RESPONSIBILITIES
+You are responsible for exporting the correct carrier report, mapping columns
+accurately, reviewing output, filing disputes on time, keeping backups of your
+files, complying with privacy and carrier obligations, and deciding whether any
+claim is valid.
+
+8. UPDATES
+The seller may release updates at its discretion. Minor fixes may be free, but
+the seller is not obligated to maintain carrier rules, CSV templates, dispute
+logic, operating-system compatibility, or third-party dependencies forever.
+Major upgrades, premium rule packs, managed support, or automation may be sold
+separately.
+
+9. SUPPORT
+Support is limited to reasonable installation, activation, and reproducible bug
+questions during the support period described in the Support and Updates Policy.
+Support does not include auditing invoices for you, handling carrier disputes,
+training your team, custom integrations, custom reports, or emergency response.
+
+10. NO WARRANTY
+The software is provided &quot;as is&quot; and &quot;as available.&quot; To the maximum extent
+permitted by law, all warranties are disclaimed, including implied warranties of
+merchantability, fitness for a particular purpose, non-infringement, accuracy,
+availability, and compatibility.
+
+11. LIMITATION OF LIABILITY
+To the maximum extent permitted by law, the seller is not liable for indirect,
+incidental, special, consequential, punitive, lost-profit, lost-data, lost-refund,
+business-interruption, or carrier-denial damages. Total liability for any claim
+is limited to the amount you paid for the software in the 12 months before the
+claim arose.
+
+12. TERMINATION
+The license may be suspended or terminated if you breach these Terms, request a
+refund, initiate fraud, reverse engineer the app, exceed activation limits, or
+misuse the software. Upon termination, you must stop using and uninstall the app.
+
+13. CHANGES
+Future app versions may require acceptance of updated legal terms. If you do not
+accept updated terms, you may continue using the last version you accepted only
+to the extent it remains technically functional and your license remains valid.</div>
+</main>
+<div class="legal-bottom" style="border-top:1px solid #1a2540;padding:24px 20px;max-width:800px;margin:0 auto;">
+  <a href="privacy-policy.html">Privacy</a> ·
+  <a href="terms-of-service.html">Terms</a> ·
+  <a href="refund-policy.html">Refund</a> ·
+  <a href="support-policy.html">Support &amp; Updates</a>
+  · <a href="freightleak_landing.html">Home</a>
+</div>
+</body>
+</html>
